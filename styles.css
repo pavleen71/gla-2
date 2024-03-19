@@ -16,11 +16,12 @@ header {
 
 header h1 {
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /* Styling for labels in header */
 header label {
+    margin-top:20px;
     color: #fff;
     margin-right: 10px;
 }
