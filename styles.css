@@ -60,19 +60,9 @@ button {
  button:hover {
     background-color: #d3a625;
 }
-
-/* Styling for element with id data */
-#data {
-    display: flex;
-    column-gap: 30px;
-    row-gap: 50px;
-    flex-wrap: wrap;
-    margin:60px;
-}
 .product-card {
-    width: 325px;
-    margin: 10px;
-    padding: 15px;
+    margin: 20px;
+    padding: 30px;
     border: 1px solid #ddd;
     background-color: #fff;
     border-radius: 8px;
