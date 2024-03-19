@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+/* Styling for header section */
+header {
+    background-color: #9A031E;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/* Styling for labels in header */
+header label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+header select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+/* Styling for imagess */
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+p {
+    margin: 5px 0;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #f0c14b;
+    color: #111;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ button:hover {
+    background-color: #d3a625;
+}
+
+/* Styling for element with id data */
+#data {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    margin:60px;
+}
+.product-card {
+    width: 325px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.description{
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+}
+.product-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+

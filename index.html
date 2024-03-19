@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header><h1>Showing The Products of Fake Store</h1>
+    <label for="sort">Sort By Price</label>
+   <select id="sort"><!-- Sort dropdown with options -->
+    <option valu=""></option>
+    <option valu="asc">
+        Ascending
+    </option>
+    <option valu="des">
+        Descending
+    </option>
+
+   </select>
+   <label for="category">Filter By Category</label>
+   <select id="category"><!-- Category dropdown with options -->
+    <option value="">All</option>
+                <option value="men's clothing">men's clothing</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="electronics">Electronics</option>
+                <option value="women's clothing">Women's Clothing</option>
+    </select>
+</header>
+    <div id="data"></div>
+    <script src="script.js"></script>
+</body>
+</html>
