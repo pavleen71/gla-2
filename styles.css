@@ -65,7 +65,7 @@ button {
 #data {
     display: flex;
     column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 50px;
     flex-wrap: wrap;
     margin:60px;
 }
